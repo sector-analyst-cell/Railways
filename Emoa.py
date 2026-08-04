@@ -73,7 +73,7 @@ START_ROW = int(os.getenv("START_ROW", "2"))
 # ---------------- Master sheet ("Sheet List") config ----------------
 # Header row: Doc Type | Sheet Link | User | Drive Link Status | extraction User | Extarction status
 MASTER_SHEET_ID = "1oNr3g2Pjpyu9u09w0lCFVT9vJwbBGn8O2rbx4kvjd88"
-MASTER_SHEET_TAB = "Sheet List"
+MASTER_SHEET_TAB = "MOA"
 
 # This script tracks its own progress via the "extraction User" /
 # "Extarction status" columns (E/F), separately from the Drive-link phase
