@@ -61,7 +61,7 @@ CURRENT_USER = os.environ.get("USER_NAME")      # identifies this run's claims; 
 MASTER_SHEET_LINK_COL_LETTER = "B"
 MASTER_XFA_USER_COL_LETTER = "G"
 MASTER_XFA_STATUS_COL_LETTER = "H"
-MASTER_START_ROW = 6                            # 1 if the master sheet has no header row
+MASTER_START_ROW = 2                            # 1 if the master sheet has no header row
 
 MASTER_STATUS_PROCESSING = "Processing"
 MASTER_STATUS_COMPLETED = "Done"
