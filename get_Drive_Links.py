@@ -22,7 +22,7 @@ CONFIG = {
     # so they start out empty and get filled in inside the main loop.
     "SHEET_ID": None,
     "SHEET_NAME": None,
-    "SERVICE_ACCOUNT_FILE": os.environ.get("SERVICE_ACCOUNT_FILE"),
+    "SERVICE_ACCOUNT_FILE": os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON"),
     "DRIVE_FOLDER_ID": os.environ.get("DRIVE_FOLDER_ID"),
 
     # Master sheet that tracks which user is working on which target sheet.
