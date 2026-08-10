@@ -28,7 +28,7 @@ CONFIG = {
     # Master sheet that tracks which user is working on which target sheet.
     # Header row: Doc Type | Sheet Link | User | Drive Link Status | extraction User | Extarction status
     "MASTER_SHEET_ID": "1oNr3g2Pjpyu9u09w0lCFVT9vJwbBGn8O2rbx4kvjd88",
-    "MASTER_SHEET_TAB": "Sheet List",
+    "MASTER_SHEET_TAB": "eMOA",
     "USER_NAME": os.environ.get("USER_NAME"),
 
     "CONFIG_SHEET": "Config",      # sheet holding tokens in column B
