@@ -52,7 +52,7 @@ GOOGLE_SERVICE_ACCOUNT_INFO = GOOGLE_SERVICE_ACCOUNT_INFOS[0]
 # per-user claiming/progress so multiple runs/users can't double-process
 # the same child sheet. See process_master_workflow() / main().
 MASTER_SPREADSHEET_ID = "1oNr3g2Pjpyu9u09w0lCFVT9vJwbBGn8O2rbx4kvjd88"
-MASTER_SHEET_NAME = "MOA"                # master tab name
+MASTER_SHEET_NAME = "eMOA"                # master tab name
 CURRENT_USER = os.environ.get("USER_NAME")      # identifies this run's claims; set per user/machine
 
 # Master sheet headers (in this order):
